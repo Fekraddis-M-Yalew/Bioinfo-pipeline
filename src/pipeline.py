@@ -14,7 +14,7 @@ if not os.path.exists(file):
  
 total_reads = 0
 total_length = 0
-valid_nucleotides = set("ATCG")
+valid_nucleotide = set("ATCG")
 
 with gzip.open(file, "rt") as f:
     for i, line in enumerate(f):
